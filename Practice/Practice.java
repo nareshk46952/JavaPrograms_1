@@ -1,7 +1,5 @@
+package Practice;
 import java.util.Arrays;
-
-import javafx.scene.control.Slider;
-import javafx.scene.paint.Stop;
 
 public class Practice {
     public static String swapNames() {

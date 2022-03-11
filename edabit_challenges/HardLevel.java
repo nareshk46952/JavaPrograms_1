@@ -1,4 +1,4 @@
-package demo;
+package edabit_challenges;
 import java.util.ArrayList;
 import java.util.Collections;
 public class HardLevel {

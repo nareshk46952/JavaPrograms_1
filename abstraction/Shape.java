@@ -1,3 +1,4 @@
+package abstraction;
 abstract class Shape {
     abstract int sides();
     abstract String name();

@@ -1,3 +1,4 @@
+package Collections;
 public class Link {
     //Creating Head of Linked List.
     Node head;

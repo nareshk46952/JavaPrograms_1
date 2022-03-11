@@ -1,3 +1,4 @@
+package Practice;
 public class SingleTon {
     int id = 1;
     static SingleTon instance = null;
