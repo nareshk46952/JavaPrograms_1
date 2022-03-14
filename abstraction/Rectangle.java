@@ -1,4 +1,3 @@
-package abstraction;
 import java.util.*;
 
 public class Rectangle extends Shape {
@@ -165,4 +164,15 @@ public class Rectangle extends Shape {
             System.out.println("The Error is "+e);
         }
     }
+
+    @Override
+    int area(int a, int b) {
+        return a * b;
+    }
+
+    @Override
+    int getCircleArea(int r) {
+        return 0;
+    }
+    
 }
