@@ -1,9 +1,10 @@
 package Practice;
-import java.util.Arrays;
+
+import java.util.Arrays;a
 
 public class Test {
     public static void main(String[] args) {
-        assci();
+       
     }
 
     public static int factorial(int n) {
@@ -79,5 +80,11 @@ public class Test {
             System.out.println("|\t\t" + i + "\t\t" + (char) i + "\t|");
         }
         System.out.println("-----------------------------------------------");
+    }
+
+    public static int heartBeatCount(int day) {
+        int daysInHours = day * 24 * 60;
+        int count = daysInHours * 72;
+        return count;
     }
 }
